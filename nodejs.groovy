@@ -1,6 +1,6 @@
 job('NodeJS Job') {
     scm {
-        git('https://github.com/msekibe/sample_nodejs.git') {  node ->
+        git('https://github.com/iotagile/sample_nodejs.git') {  node ->
             node / gitConfigName('DSL User')
             node / gitConfigEmail('masahiko.sekibe@konicaminolta.com')
         }
