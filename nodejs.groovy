@@ -2,7 +2,7 @@ job('NodeJS Job') {
     scm {
         git('https://github.com/msekibe/sample_nodejs.git') {  node ->
             node / gitConfigName('DSL User')
-            node / gitConfigEmail('msekibe@ysk.co.jp')
+            node / gitConfigEmail('masahiko.sekibe@konicaminolta.com')
         }
     }
     triggers {
