@@ -14,7 +14,7 @@ describe('utils test', () => {
       expect(math.multiply(3, 4)).toBe(12);
     });
 
-    test('should be 4 when dividing 8 by 4', () => {
+    test('should be 4 when dividing 8 by ', () => {
       expect(math.divide(8, 2)).toBe(4);
     });
   });
