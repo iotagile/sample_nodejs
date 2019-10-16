@@ -6,7 +6,7 @@ job('NodeJS Job') {
         }
     }
     triggers {
-        scm('H/5 * * * *')
+        scm('H/1 * * * *')
     }
     wrappers {
         nodejs('nodejs_v11')
